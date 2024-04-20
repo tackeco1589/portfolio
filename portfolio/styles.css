@@ -1,0 +1,59 @@
+body {
+    padding: 0 500px; /* Adjust the value to set the desired margin size */
+    background-color: #a4cfe0;
+}
+
+header {
+    background-color: #00138b;
+    display: flex;
+    height: 125px;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    width: 75px;
+    height: auto;
+    padding-left: 10rem;
+}
+
+main {
+    background-color: #5caaff;
+    padding: 2rem;
+}
+
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2ed8ff;
+    font-size: 50px;
+    text-align: left;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 2rem 2rem 2rem 10px;
+
+}
+
+h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0036c2;
+    margin-bottom: 0;
+
+}
+
+h3, h4, p, ol, li{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 30px; /* Adjust font size for mobile */
+        padding: 2rem; /* Adjust padding for mobile */
+    }
+
+    header {
+        height: 80px; /* Adjust header height for mobile */
+    }
+}
